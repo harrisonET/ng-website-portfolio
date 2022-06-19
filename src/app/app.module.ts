@@ -10,6 +10,7 @@ import { NgxNavbarModule } from 'ngx-bootstrap-navbar';
 import { IntroComponent } from './profile/intro/intro.component';
 import { ProjectsComponent } from './profile/projects/projects.component';
 import { SkillsComponent } from './profile/skills/skills.component';
+import { ProjectCardComponent } from './profile/project-card/project-card.component';
 
 @NgModule({
   declarations: [
@@ -19,6 +20,7 @@ import { SkillsComponent } from './profile/skills/skills.component';
     IntroComponent,
     ProjectsComponent,
     SkillsComponent,
+    ProjectCardComponent,
   ],
   imports: [
     BrowserModule,
@@ -29,4 +31,5 @@ import { SkillsComponent } from './profile/skills/skills.component';
   providers: [],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule {
+}

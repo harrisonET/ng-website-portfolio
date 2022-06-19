@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { PROJECTS } from 'src/app/model/mock-project';
 
 @Component({
   selector: 'app-projects',
@@ -6,6 +7,10 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./projects.component.scss']
 })
 export class ProjectsComponent implements OnInit {
+
+  fypProject = PROJECTS[0];
+
+  ggcgProject = PROJECTS[1];
 
   constructor() { }
 
