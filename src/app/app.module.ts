@@ -26,7 +26,7 @@ import { ProjectCardComponent } from './profile/project-card/project-card.compon
     BrowserModule,
     AppRoutingModule,
     NgxSpinnerModule,
-    NgxNavbarModule
+    NgxNavbarModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
