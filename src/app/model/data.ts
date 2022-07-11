@@ -14,3 +14,9 @@ export const PROJECTS: Project[] = [
         tags: ['Desktop', 'Java', 'GUI']
     }
 ];
+
+export const SKILLSLIST = [
+    'Flutter', 'Dart',
+    'Angular', 'Typescript',
+    'Spring', 'Java'
+];

@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { SKILLSLIST } from 'src/app/model/data';
 
 @Component({
   selector: 'app-intro',
@@ -6,6 +7,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./intro.component.scss']
 })
 export class IntroComponent implements OnInit {
+
+  skills = SKILLSLIST;
 
   constructor() { }
 
