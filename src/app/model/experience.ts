@@ -4,5 +4,10 @@ export interface Experience {
     role: String;
     fromDate: String;
     toDate: String;
-    descs: string[];
+    tasks: Task[];
+}
+
+export interface Task{
+    projectName: String,
+    descs: String[];
 }
