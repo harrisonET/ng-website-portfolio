@@ -1,4 +1,5 @@
 import { Component, Input, OnInit } from '@angular/core';
+import { BoldTextPipe } from '../../pipe/bold-text-pipe.pipe';
 
 @Component({
   selector: 'app-timeline',
@@ -8,8 +9,10 @@ import { Component, Input, OnInit } from '@angular/core';
 export class TimelineComponent implements OnInit {
 
   @Input() value: any[] = [];
+  
+  constructor() { 
 
-  constructor() { }
+  }
 
   ngOnInit(): void {
   }

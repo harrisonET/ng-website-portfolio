@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { EXPSLIST } from 'src/app/model/data';
 
 @Component({
   selector: 'app-experiences',
@@ -8,6 +9,7 @@ import { Component, OnInit } from '@angular/core';
 export class ExperiencesComponent implements OnInit {
 
   events: any[] = [];
+  exps = EXPSLIST;
 
   constructor() { }
 

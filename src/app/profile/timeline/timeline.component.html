@@ -1,16 +1,28 @@
 <div class="timeline"> 
-    <div *ngFor="let item of value" class="timeline-event">
+    <div *ngFor="let item of value.reverse()" class="timeline-event">
         <div class="timeline-point-track-container">
             <div class="timeline-point"></div>
             <div class="timeline-track"></div>
         </div>
-        <div class="timeline-content">
+        <div class="timeline-content">            
+            <span class="company-name">
+                {{item.companyName}}
+            </span>
+            <br>
             <span>
-                {{item.content}}
+                {{item.role}}
             </span>
+            <br>
             <span class="timeline-date">
-                {{item.date}}
+                {{item.fromDate}} - {{item.toDate}} 
             </span>
+            <div *ngFor="let project of item.tasks">            
+                <span class="project-name">{{project.projectName}}</span>
+                <br>
+                <ul *ngFor="let desc of project.descs">            
+                    <li>{{desc}}</li>
+                </ul>
+            </div>
         </div>
     </div>
 </div>

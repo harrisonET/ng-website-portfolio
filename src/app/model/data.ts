@@ -24,9 +24,9 @@ export const SKILLSLIST = [
 
 export const EXPSLIST: Experience[] = [
     {
-        id: 1,
+        id: 0,
         companyName: "OMNI",
-        role: "Backend Developer Part Time",
+        role: "Backend Developer Part-Time",
         fromDate: "Feb 2020",
         toDate: "Oct 2020",
         tasks: [
@@ -41,7 +41,7 @@ export const EXPSLIST: Experience[] = [
         ],
     },
     {
-        id: 2,
+        id: 1,
         companyName: "Toppan Ecquaria Technologies Pte Ltd",
         role: "Software Engineer",
         fromDate: "Mar 2020",
@@ -78,8 +78,8 @@ export const EXPSLIST: Experience[] = [
             {
                 projectName: "IP4SG Mobile App - IPOS",
                 descs: [
-                    "Led and developing ongoing project using Flutter for the mobile applications and Java Spring Boot for backend integration",
-                    "Integrated mobile app and backend api with ENETS Payment API"
+                    "Led and developed ongoing project using Flutter for the mobile applications and Java Spring Boot for Back-end integration",
+                    "Integrated mobile app and Back-end API with ENETS Payment API"
                 ]
             }
         ],
@@ -94,7 +94,7 @@ export const EXPSLIST: Experience[] = [
             {
                 projectName: "Servedeck",
                 descs: [
-                    "Responsible on resolving issues and develop new enhancements to existing systems which are using Angular as the Front-end framework and Spring as the backend framework",
+                    "Responsible on resolving issues and develop new enhancements to existing systems which are using Angular as the Front-end framework and Spring as the Back-end framework",
                 ]
             }
         ],
