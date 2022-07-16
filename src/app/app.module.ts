@@ -12,6 +12,8 @@ import { ProjectsComponent } from './profile/projects/projects.component';
 import { SkillsComponent } from './profile/skills/skills.component';
 import { ProjectCardComponent } from './profile/project-card/project-card.component';
 import { ExperiencesComponent } from './profile/experiences/experiences.component';
+import { TimelineComponent } from './profile/timeline/timeline.component';
+import { BoldTextPipe } from './pipe/bold-text-pipe.pipe';
 
 @NgModule({
   declarations: [
@@ -23,6 +25,8 @@ import { ExperiencesComponent } from './profile/experiences/experiences.componen
     SkillsComponent,
     ProjectCardComponent,
     ExperiencesComponent,
+    TimelineComponent,
+    BoldTextPipe
   ],
   imports: [
     BrowserModule,
