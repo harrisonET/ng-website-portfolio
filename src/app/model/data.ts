@@ -24,20 +24,34 @@ export const SKILLSLIST = [
 
 export const EXPSLIST: Experience[] = [
     {
-        id: 0,
-        companyName: "OMNI",
-        role: "Backend Developer Part-Time",
-        fromDate: "Feb 2020",
-        toDate: "Oct 2020",
+        id: 3,
+        companyName: "Mandrill Tech Sdn Bhd",
+        role: "Software Engineer",
+        fromDate: "Jun 2022",
+        toDate: "Present",
         tasks: [
             {
-                projectName: "AER Membership App",
+                projectName: "Servedeck",
                 descs: [
-                    "Constructed Application Programming Interface for mobile using Lumen and admin panel using Laravel to manage online e-commerce transactions",
-                    "Successfully delivered the system as ready to use in live environment and available in Google Play / App store"
+                    "Responsible on resolving issues and develop new enhancements to existing systems which are using Angular as the Front-end framework and Spring as the Back-end framework",
                 ]
-            },
-
+            }
+        ],
+    },
+    {
+        id: 2,
+        companyName: "Toppan Ecquaria Technologies Pte Ltd",
+        role: "Senior Software Engineer",
+        fromDate: "Mar 2021",
+        toDate: "Jun 2022",
+        tasks: [
+            {
+                projectName: "IP4SG Mobile App - IPOS",
+                descs: [
+                    "Led and developed ongoing project using Flutter for the mobile applications and Java Spring Boot for Back-end integration",
+                    "Integrated mobile app and Back-end API with ENETS Payment API"
+                ]
+            }
         ],
     },
     {
@@ -69,34 +83,20 @@ export const EXPSLIST: Experience[] = [
         ],
     },
     {
-        id: 2,
-        companyName: "Toppan Ecquaria Technologies Pte Ltd",
-        role: "Senior Software Engineer",
-        fromDate: "Mar 2021",
-        toDate: "Jun 2022",
+        id: 0,
+        companyName: "OMNI",
+        role: "Backend Developer Part-Time",
+        fromDate: "Feb 2020",
+        toDate: "Oct 2020",
         tasks: [
             {
-                projectName: "IP4SG Mobile App - IPOS",
+                projectName: "AER Membership App",
                 descs: [
-                    "Led and developed ongoing project using Flutter for the mobile applications and Java Spring Boot for Back-end integration",
-                    "Integrated mobile app and Back-end API with ENETS Payment API"
+                    "Constructed Application Programming Interface for mobile using Lumen and admin panel using Laravel to manage online e-commerce transactions",
+                    "Successfully delivered the system as ready to use in live environment and available in Google Play / App store"
                 ]
-            }
+            },
+
         ],
     },
-    {
-        id: 3,
-        companyName: "Mandrill Tech Sdn Bhd",
-        role: "Software Engineer",
-        fromDate: "Jun 2022",
-        toDate: "Present",
-        tasks: [
-            {
-                projectName: "Servedeck",
-                descs: [
-                    "Responsible on resolving issues and develop new enhancements to existing systems which are using Angular as the Front-end framework and Spring as the Back-end framework",
-                ]
-            }
-        ],
-    }
 ];
